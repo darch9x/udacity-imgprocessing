@@ -1,0 +1,35 @@
+{
+  "name": "myapp",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run build && npm run jasmine",
+    "start": "nodemon --exec npx ts-node src/index.ts",
+    "build": "npx tsc",
+    "lint": "eslint 'index.js'",
+    "prettier": "prettier --config .prettierrc '*.js' --write",
+    "jasmine": "jasmine",
+    "runprj": "npm run build && node build/."
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "express": "^4.21.0",
+    "jasmine": "^5.3.0",
+    "sharp": "^0.33.5",
+    "supertest": "^7.0.0"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.21",
+    "@types/jasmine": "^5.1.4",
+    "@types/supertest": "^6.0.2",
+    "eslint": "^8.8.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "jasmine-spec-reporter": "^7.0.0",
+    "nodemon": "^3.1.5",
+    "prettier": "^2.5.1",
+    "typescript": "^5.6.2"
+  }
+}
