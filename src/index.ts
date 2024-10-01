@@ -7,11 +7,11 @@ const port = 3000;
 app.use('/api', route);
 
 app.get('/', (req, res) => {
-    res.status(200).send(`Welcome my project!`);
+  res.status(200).send(`Welcome my project!`);
 });
 
 app.listen(port, () => {
-    console.log(`Running on port: ${port}`);
+  console.log(`Running on port: ${port}`);
 });
 
 export default app;
