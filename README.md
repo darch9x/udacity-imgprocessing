@@ -11,8 +11,9 @@ npm install
 
 # Running local
 
-Running `npm run runprj` to build and run project. Then you access url http://localhost:3000/api/images?filename=<name-of-image>&width=<width-of-image>&height=<height-of-image>
-You can see existance image in folder `images`
+Running `npm run runprj` to build and run project. Then you can access url http://localhost:3000/api/images?filename=<name_of_image>&width=<width_of_image>&height=<height_of_image>
+
+You can see existance images in folder `images` and converted images in folder `output`
 
 # Checking quality
 
